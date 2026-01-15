@@ -1,16 +1,89 @@
-# akademik_app
+# 📱 Aplikasi Akademik (Akademik App)
 
-A new Flutter project.
+Aplikasi Akademik adalah aplikasi mobile berbasis **Flutter** yang digunakan untuk mengelola data akademik mahasiswa, meliputi mata kuliah, absensi, statistik kehadiran, serta integrasi database menggunakan **Supabase**.
 
-## Getting Started
+Aplikasi ini dibuat untuk memenuhi tugas mata kuliah **Pemrograman Mobile 2**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 👤 Identitas Mahasiswa
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Nama**        : Gilang  Prasutio
+- **NIM/NPM**     : 23552011153
+- **Jurusan**     : Teknik Informatika
+- **Kelas**       : TIF 23PK
+- **Mata Kuliah** : Pemrograman Mobile 2  
+  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🎯 Tujuan Aplikasi
+
+- Mengelola data mata kuliah
+- Mencatat dan mengelola absensi mahasiswa
+- Menampilkan statistik kehadiran
+- Melatih penggunaan Flutter dengan backend Supabase
+
+---
+
+## 🚀 Fitur Utama
+
+### 🔐 Autentikasi
+- Login user menggunakan Supabase Authentication
+- Logout user
+
+### 📚 Manajemen Mata Kuliah
+- Tambah mata kuliah
+- Edit mata kuliah
+- Hapus mata kuliah
+- Detail mata kuliah (nama & dosen)
+
+### 📝 Manajemen Absensi
+- Tambah absensi
+- Edit absensi
+- Detail absensi
+- Status kehadiran:
+  - Hadir
+  - Izin
+  - Sakit
+  - Alpha
+
+### 📊 Statistik Kehadiran
+- Persentase kehadiran
+- Ringkasan jumlah hadir, izin, sakit, alpha
+- Grafik (Pie Chart / By Course Chart)
+
+### 📤 Export Data
+- Export data absensi ke **CSV**
+
+### 👤 Profil
+- Menampilkan data user
+- Logout dari aplikasi
+
+---
+
+## 🖼️ Dokumentasi Screenshot (WAJIB)
+
+Silakan lampirkan screenshot berikut di laporan/makalah:
+
+1. **Halaman Login**
+2. **Dashboard**
+3. **Halaman Mata Kuliah**
+4. **Form Tambah/Edit Mata Kuliah**
+5. **Halaman Absensi**
+6. **Form Tambah/Edit Absensi**
+7. **Detail Absensi**
+8. **Statistik Kehadiran**
+9. **Profil User**
+10. **Logout**
+11. **Dashboard Supabase (Auth & Database)**
+
+📌 *Screenshot ditempatkan pada bab Dokumentasi / Lampiran.*
+
+---
+
+## 🎥 Demo Video
+
+👉 **Link Video Demo Aplikasi**  
+(isi link video demo di sini, misalnya YouTube / Google Drive)
+
